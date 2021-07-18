@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "body": "1",
+      "isDone": true,
+      "createdAt": "2021-07-17T20:02:06.231Z",
+      "id": 1
+    },
+    {
+      "body": "2",
+      "isDone": false,
+      "createdAt": "2021-07-17T20:02:09.487Z",
+      "id": 2
+    },
+    {
+      "body": "sadadasdasd",
+      "isDone": false,
+      "createdAt": "2021-07-18T14:11:16.480Z",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+.todoListItem, .editTodoForm {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.editTodoForm{
+    width: 100%;
+}
+
+.editTodoForm input{
+    width: 80%;
+    height: 90%;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px 10px;
+}
+
+.editTodoForm .buttonBox{
+    width: 13%;
+}
+
+.buttonBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.buttonBox input {
+    cursor: pointer;
+}
+
+.btn{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.Delete {
+    background: url("./images/delete.png") center no-repeat ;
+    background-size: contain;
+}
+
+.Edit {
+    background:url("./images/edit.png") center no-repeat ;
+    background-size: contain;
+}
+
+.Save {
+    background:url("./images/checked.png") center no-repeat ;
+    background-size: contain;
+}
+
+.Cancel {
+    background:url("./images/cancel.png") center no-repeat ;
+    background-size: contain;
+}

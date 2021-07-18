@@ -1,0 +1,9 @@
+PUT /todos/2 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "body": "Somebody",
+  "isDone": true,
+  "createdAt": "2021-07-06T15:40:30.234Z"
+}
